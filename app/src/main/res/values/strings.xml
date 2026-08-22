@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrivaDoT</string>
+    <string name="accessibility_service_description">PrivaDoT uses Accessibility Services to stay active in the background and reliably detect when other apps use your Camera, Microphone, or Location. This ensures the privacy indicators always work without being killed by the Android system. We do not collect or transmit any of your personal data.</string>
+
+</resources>

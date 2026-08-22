@@ -1,0 +1,43 @@
+name: 💡 Feature Request
+description: Suggest a new idea or improvement for PrivaDoT.
+title: "[Feature]: "
+labels: ["enhancement", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make PrivaDoT even better? We'd love to hear it! Please keep in mind our strict zero-telemetry and offline architecture.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Motivation
+      description: Is your feature request related to a problem or limitation?
+      placeholder: E.g., I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: A clear and concise description of what you want to happen.
+      placeholder: Describe the feature and how it should work...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or features you've considered.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: privacy-compliance
+    attributes:
+      label: Privacy Check
+      options:
+        - label: This feature complies with PrivaDoT's 100% offline and zero-telemetry policy (no network calls, no tracking).
+          required: true
