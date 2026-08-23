@@ -1,0 +1,53 @@
+*.iml
+.gradle/
+local.properties
+
+# Build outputs and IDE caches
+.idea/
+.DS_Store
+Thumbs.db
+build/
+app/build/
+scratch/
+app/release/
+*.apk
+*.aab
+*.dm
+*.ap_
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+*.p12
+*.key
+*.pem
+
+# Sensitive Credentials & Configs
+google-services.json
+key.properties
+signing.properties
+secrets.properties
+.env
+.env.*
+
+# AI & IDE Specific
+/.agents/
+.gemini/
+implementation_plan.md
+walkthrough.md
+task.md
+.kotlin/
+profile_repo/
+
+# Profiling, Reports, and Logs
+*.trace
+*.log
+lint-results.xml
+lint-results.html
+
+.vscode/
+
+keystore_base64*.txt
