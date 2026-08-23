@@ -33,11 +33,11 @@ While modern operating systems (like Android 12+) have started including basic p
 
 <div align="center">
 
-<img src="assets/screenshot_1.png" width="320" alt="Dashboard" style="border-radius:12px; margin: 5px;"/>
-<img src="assets/screenshot_2.png" width="320" alt="Access History" style="border-radius:12px; margin: 5px;"/>
+<img src="assets/screenshot_1.jpg" width="320" alt="Dashboard" style="border-radius:12px; margin: 5px;"/>
+<img src="assets/screenshot_2.jpg" width="320" alt="Access History" style="border-radius:12px; margin: 5px;"/>
 <br>
-<img src="assets/screenshot_3.png" width="320" alt="Customization" style="border-radius:12px; margin: 5px;"/>
-<img src="assets/screenshot_4.png" width="320" alt="Permissions" style="border-radius:12px; margin: 5px;"/>
+<img src="assets/screenshot_3.jpg" width="320" alt="Customization" style="border-radius:12px; margin: 5px;"/>
+<img src="assets/screenshot_4.jpg" width="320" alt="Permissions" style="border-radius:12px; margin: 5px;"/>
 
 </div>
 
