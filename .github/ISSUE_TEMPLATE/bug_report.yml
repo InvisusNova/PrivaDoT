@@ -1,0 +1,73 @@
+name: 🐛 Bug Report
+description: Report a bug, crash, or unexpected behavior in PrivaDoT.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue! Please provide as much detail as possible to help us reproduce and resolve the problem quickly.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is.
+      placeholder: Describe what happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue.
+      placeholder: |
+        1. Open PrivaDoT
+        2. Enable Accessibility Service
+        3. Open third-party app (e.g. Camera)
+        4. See error...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen instead?
+      placeholder: Describe the expected behavior...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sensor
+    attributes:
+      label: Affected Sensor / Feature
+      options:
+        - Camera Indicator
+        - Microphone Indicator
+        - Location Indicator
+        - Cellular Call / Dialer Detection
+        - Access History / Audit Log
+        - Background Keep-Alive / Accessibility Service
+        - Settings & Positioning
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: device-info
+    attributes:
+      label: Device & OS Version
+      description: E.g., Google Pixel 8 (Android 14) / Xiaomi 13 (HyperOS / Android 14)
+      placeholder: Device model and Android version
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Screen Recording
+      description: Drag and drop screenshots or screen recordings here if applicable.
+    validations:
+      required: false
